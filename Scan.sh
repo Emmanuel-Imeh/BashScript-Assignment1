@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd ~
-FILE="AltSchool-Project/Assignment1/Scan.sh"
+FILE="AltSchool-Project/BashScript-Assignment/Scan.sh"
 if [ -f "$FILE" ]; then
 	echo "file exists."
 else
