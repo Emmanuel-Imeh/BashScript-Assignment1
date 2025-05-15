@@ -1,9 +1,8 @@
 #!/bin/bash
 
-cd ~
-FILE="AltSchool-Project/BashScript-Assignment/Scan.sh"
+FILE="Scan.sh"
 if [ -f "$FILE" ]; then
-	echo "file exists."
+	echo "file $FILE exists."
 else
-	echo "file does not exists"
+	echo "file $FILE does not exists"
 fi
